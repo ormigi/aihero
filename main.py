@@ -56,7 +56,8 @@ def main():
 # repo = "micrograd"
     dtc_faq = read_repo_data('karpathy', 'micrograd')
    
-    print(f"FAQ documents: {len(dtc_faq)}")
+    print(f"karpathy documents: {len(dtc_faq)}")
+    print(f"Found {len(data)} markdown files.")
     ## print(f"karpathy documents: {len(karpathy_docs)}")
 
 
