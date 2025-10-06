@@ -9,8 +9,8 @@ def read_repo_data(repo_owner, repo_name):
     Download and parse all markdown files from a GitHub repository.
     
     Args:
-        repo_owner:  
-        repo_name:  
+        repo_owner:  karpathy
+        repo_name:  micrograd
     
     Returns:
         List of dictionaries containing file content and metadata
@@ -52,12 +52,12 @@ def main():
     """Main function to download and analyze the FAQ repo."""
     url = 'https://codeload.github.com/DataTalksClub/faq/zip/refs/heads/main'
     resp = requests.get(url)
-
-    dtc_faq = read_repo_data('DataTalksClub', 'faq')
-    # evidently_docs = read_repo_data('evidentlyai', 'docs')
-
+#owner = "karpathy"
+# repo = "micrograd"
+    dtc_faq = read_repo_data('karpathy', 'micrograd')
+   
     print(f"FAQ documents: {len(dtc_faq)}")
-    ## print(f"Evidently documents: {len(evidently_docs)}")
+    ## print(f"karpathy documents: {len(karpathy_docs)}")
 
 
 if __name__ == "__main__":
