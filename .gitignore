@@ -1,0 +1,31 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+*$py.class
+build/
+dist/
+wheels/
+*.egg-info
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+
+# Data files
+data/
+*.csv
+*.xlsx
+# Logs and caches
+*.log
+*.tmp
+*.cache
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+
+# Virtual environments
+.venv/
+env/
+venv/
